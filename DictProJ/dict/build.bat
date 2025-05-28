@@ -1,0 +1,1 @@
+mvn clean package & copy dict_hh.db target

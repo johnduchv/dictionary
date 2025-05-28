@@ -1,0 +1,1 @@
+java -cp target/untitled-1.0-SNAPSHOT-shaded.jar com.project.main.main

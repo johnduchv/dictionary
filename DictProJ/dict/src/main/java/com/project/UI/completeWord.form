@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.project.UI.completeWord">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="650" height="263"/>
+    </constraints>
+    <properties>
+      <background color="-11711155"/>
+      <preferredSize width="680" height="480"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="94766" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="9538f" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12559704"/>
+            </properties>
+            <border type="line">
+              <color color="-6236"/>
+            </border>
+            <children>
+              <component id="e7465" class="javax.swing.JButton" binding="buttonOK">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-9805144"/>
+                  <font name="Consolas" size="18"/>
+                  <foreground color="-4397831"/>
+                  <text value="OK"/>
+                </properties>
+              </component>
+              <component id="5723f" class="javax.swing.JButton" binding="buttonCancel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-9805144"/>
+                  <font name="Consolas" size="16"/>
+                  <foreground color="-4397831"/>
+                  <text value="Cancel"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="e15e3" class="javax.swing.JLabel" binding="labelEdit">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="18"/>
+          <foreground color="-4397831"/>
+          <text value="Edit Definition and Pronunciation:"/>
+        </properties>
+      </component>
+      <grid id="70fe5" binding="panelEdit" layout-manager="GridLayoutManager" row-count="3" column-count="16" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12559704"/>
+        </properties>
+        <border type="line">
+          <color color="-1"/>
+        </border>
+        <children>
+          <grid id="71eb0" binding="panelEditPronounce" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="16" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12559704"/>
+            </properties>
+            <border type="line">
+              <color color="-6236"/>
+            </border>
+            <children>
+              <component id="70a2" class="javax.swing.JLabel" binding="labelPronounce">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18"/>
+                  <foreground color="-4397831"/>
+                  <text value="Edit pronounciation:"/>
+                </properties>
+              </component>
+              <component id="3e6cd" class="javax.swing.JTextField" binding="textFieldEditPronounce">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-11711155"/>
+                  <caretColor color="-21419"/>
+                  <font name="Consolas" size="18"/>
+                  <foreground color="-4397831"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="94941" binding="panelEditDefinition" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="16" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12559704"/>
+            </properties>
+            <border type="line">
+              <color color="-6236"/>
+            </border>
+            <children>
+              <component id="a95f" class="javax.swing.JLabel" binding="labelEditDefinition">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11711155"/>
+                  <font name="Consolas" size="18"/>
+                  <foreground color="-4397831"/>
+                  <text value="Edit definition:"/>
+                </properties>
+              </component>
+              <component id="260a8" class="javax.swing.JEditorPane" binding="editorPaneEditDefinition">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-11711155"/>
+                  <caretColor color="-21419"/>
+                  <font name="Consolas" size="18"/>
+                  <foreground color="-4397831"/>
+                  <selectedTextColor color="-12559704"/>
+                  <selectionColor color="-4397831"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="c23e9" class="javax.swing.JLabel" binding="labelTarget">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="18"/>
+              <foreground color="-4397831"/>
+              <text value="Target: "/>
+            </properties>
+          </component>
+          <component id="14134" class="javax.swing.JLabel" binding="labelWord">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="18"/>
+              <foreground color="-4397831"/>
+              <text value="Label"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
